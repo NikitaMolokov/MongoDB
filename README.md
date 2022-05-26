@@ -18,6 +18,17 @@
 ---
 MongoDB is a source-available cross-platform document-oriented database program. 
 Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+MongoDB Concepts: Databases, Collections, and Documents:
+
+**Collections**
+-----------------------------------
+---
+Collection: A collection is the equivalent of an RDBMS table. A collection exists within a single database. Collections do not enforce a schema. Documents within a collection can have different fields. Typically, all documents in a collection have a similar or related purpose.
+
+**Documents**
+-----------------------------------
+---
+Documents: A record in a MongoDB collection and the basic unit of data in MongoDB. Documents are analogous to JSON objects but exist in the database in a more type-rich format known as BSON. A document contains a set of fields or key-value pairs. The best way to think of a document is as a multidimensional array. In an array, you have a set of keys that map to values (Document == Array).
 
 **Features of MongoDB**
 ### 
